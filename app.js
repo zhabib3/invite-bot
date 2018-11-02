@@ -16,7 +16,8 @@ fs.access('./members.json', fs.F_OK, (err) => {
 const memArr = jsonData.members;
 // Pull members ids from local json
 let id = "";
-let channelid = "CDUQHQ474";
+// Add channel id here
+let channelid = "#";
 const token = process.env.API_TOKEN;
 
 const posturl = 'https://slack.com/api/channels.invite';
